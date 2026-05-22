@@ -4,6 +4,7 @@
   <img src="https://github.com/user-attachments/assets/8b4bec90-cd7a-48f6-bd48-e874c8b06198" alt="output" width="150"/>
 </div>
 
+
 ## Overview
 Pac-Bot AI is a game that explores AI navigation through a grid-based maze environment. Inspired by the classic Pac-Man, the game features a player-controlled Pac-Man searching for food while being chased by four ghost agents. The project incorporates a fully AI-controlled multi-agent system where entities use the A* Search algorithm for pathfinding, leveraging heuristics and path costs for efficiency. Path costs are adapted as a proximity system in A* for Pac-bot to avoid ghosts. Additionally, the project implements BFS and DFS algorithms to provide comparison metrics for evaluating performance and efficiency.
 
@@ -77,3 +78,9 @@ Also performs some metrics for steps taken, time, ram usage, and food count.
 No additional data files are necessary to run Pac-Bot AI.
 Though the simulations.py file does generate a results.csv file that provides some useful insights
 on Pac-Bot AI's metrics. 
+
+## Authors and Contributions
+   - Victor Vu (Task manager, worked on pacbot.py majority of the code, and applied the search algorithms to ghosts.)
+   - Chris Gomez (Worked on memory_tracker.py and functions of tracking metrics such draw_metrics and start_tracking.)
+   - Jesus Fierro (Worked on displaying the grid, creation of the algorithms such as A*, BFs, and DFS, worked on simulations.py and created a function to open a text file and save the data.)
+   - Guillermo Arman (In charge of presentation)
